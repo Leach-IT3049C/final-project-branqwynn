@@ -1,28 +1,65 @@
-# Web API
+# Web Game Development Final Project
 
-Find the instructions and rubric in [INSTRUCTIONS.md](INSTRUCTIONS.md)
+## Goal
 
-## Checklist:
+Develop a game using web technologies to demonstrate what you have learned in this class and your aptitude to come up with solutions to complex problems.
 
-- [X] All of my code is pushed up into a repository.
-- [X] Fill out the `Use Cases` section
-- [X] Fill out `Technical Write-up` of the web api selection below.
-- [X] Setup GitHub Pages
-- [X] Fill out the self-evaluation form.
-- [X] Submit the repository link and list of group members, if applicable, to Canvas.
+Deliverables
+* A functional game
+* Proof of weekly progress through Agile project management tools such as Kanban and User Stories
+* Peer proof that the game is well structured and challenging for your skill level
+* A demonstration for the class of your work
 
-## Use Cases (How to test)
+## Criteria
 
-* Which Web API did you use, and where is it being used in the application?
-I used Geolocation to retrieve location and OpenWeatherApp to find current position/weather. 
-* What are application use cases?
-The application takes your current location and gives you your current weather status.
+### Game:
 
-## Technical Write-up of selection of Web API selected:
-I used the Geolocation and it takes your current location. It's only limited to your longitude and latitude. Then I used the OpenWeatherApp which takes in your current location and gives your state, country, temperature, and weather status. The app as a whole only takes your current location into consideration.
+The game can be anything you want it to be as long as its scope is large enough to fill the time available and the challenge sufficient for your current skill level.
 
-## Self Reflection(s):
-I thought this was pretty easy to do and it was pretty fun to make. Overall It took a little bit of time but I could've added more to make it look better.
-## How long it took me/us to finish this:
-3 Hours
-## Group list, if applicable:
+### Weekly Progress:
+
+There are many different project management tools and techniques used in the business capable of monitoring progress, such as Ghant charts, timelines, cross-functional flowcharts, status reports, etc. We will use Kanban boards combined with User Stories to track your progress over the coming weeks because:
+
+* They are lightweight and easy to understand.
+* They are an industry standard.
+* They reward small, fully deliverable chunks that scale to your time, skill, and group size.
+
+#### Kanban Board:
+
+A Kanban board is composed of multiple columns that contain User Stories. The column represents the state that User Story is in at that moment. They are continuously updated to provide a real-time overview of the state of your project. While you may choose any states you want for your User Stories, these are the ones I recommend you use for this project.
+
+* Backlog: Stories that have been defined and are ready to pick up
+* Develop: Stories that have been picked up by a team member
+* Review/Pending: Stories that are complete may require review from another teammate or require coordination with other members to bring into the master branch
+* Done: Stories that have been merged into the master branch and are in the game
+To get full marks on your weekly check-ins, at least more than one item should make it to Done by Sunday night every week. You will manage your board using GitHub Projects.
+
+#### User Stories:
+
+User stories ideally meet INVEST criteria:
+
+* **I**ndependent of all other stories
+* **N**egotiable, not a specific contract for features
+* **V**aluable
+* **E**stimatable to a good to approximation
+* **S**mall so to fit within an iteration (in this case a week)
+* **T**estable in principle, even if there isn't a test for it yet
+
+#### Peer Proof
+
+Every week or two weeks depending on the number of group you will be assigned a random groups repository to review. This is good for you to learn from your peers and them to learn from you.
+
+#### Demostration
+
+For the last week of class you will share your game with the class and answer questions from your classmates.
+
+## Grading
+
+Your course grade is as follows:
+
+| Points | Percent | Deliverable             |
+| ------ | ------- | ----------------------- |
+| 100    | 50      | Assignments             |
+| 20     | 10      | Quizes                  |
+| 60     | 30      | Final Project           |
+| 20     | 10      | Free (Pandemic Special) |
